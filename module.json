@@ -1,0 +1,66 @@
+{
+  "id": "pf2e-mythic-templates",
+  "title": "PF2e - Mythic Templates",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>This module includes the mythic templates from Pathfinder 2e's War of Immortals book in a from that allows you to drag-and-drop on to a creature's sheet and it prompts you with the choices according to the mythic template rules and automatically implements most of those changes.</p>",
+  "authors": [
+    {
+      "name": "Nisviik",
+      "email": "nisviik.homebrew@gmail.com",
+      "discord": "nisviik",
+      "url": "https://www.pathfinderinfinite.com/browse.php?author=Nisviik&affiliate_id=2327748&source=foundrymodule",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "nisviiks-mythic-templates-item",
+      "label": "Mythic Templates",
+      "path": "packs/nisviiks-mythic-templates-item",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "nisviiks-mythic-templates-journal",
+      "label": "Mythic Templates - Guide",
+      "path": "packs/nisviiks-mythic-templates-journal",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "PF2e Templates",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+          {
+              "name": "Mythic Templates",
+              "sorting": "a",
+              "packs": [
+                  "nisviiks-mythic-templates-item",
+                  "nisviiks-mythic-templates-journal"
+              ]
+          }
+      ]
+    }
+  ],
+  "url": "https://github.com/Nisviik/pf2e-mythic-templates",
+  "manifest": "https://github.com/nisviik/pf2e-mythic-templates/releases/latest/download/module.json",
+  "download": "https://github.com/Nisviik/pf2e-mythic-templates/releases/download/1.0.0/module.zip"
+}
