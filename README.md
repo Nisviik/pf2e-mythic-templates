@@ -35,7 +35,7 @@ Some abilities such as Mythic Skill also require you to make more choices. The c
 - Upgrading skill modifiers to be Extreme modifier for the creature's level because of the following passives are automated: (Mythic) Ambush Excellence, (Mythic) Brutish Athleticism, (Mythic) Mythic Knowledge, and (Mythic) Mythic Mobility. 
 
 **What is not automated:**
-- Creatures doesn't gain the mythic trait automatically. (Adding this automatically doesn't create the mythic points section on the statblock)
+- Creatures don't gain the mythic trait automatically. (Adding this automatically doesn't create the mythic points section on the statblock)
 - Any increase to Spell DC modifiers are not automated.
 
 
